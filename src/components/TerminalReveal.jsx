@@ -11,7 +11,7 @@ const TerminalReveal = () => {
     const lines = [
         "> whoami",
         "> James Irving",
-        "> I enjoy creating different things from code to 3D diaramas ",
+        "> I enjoy creating different things from code to 3D dioramas ",
         "> Chose to pursue Computer Science but have a strong interest in Physics and History",
         "> Currently exploring: cryptography, React, project management"
     ];
