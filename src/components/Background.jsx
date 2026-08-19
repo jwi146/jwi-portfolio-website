@@ -1,0 +1,11 @@
+//soft drifting gradient mesh, sits behind all page content
+const Background = () => {
+    return (
+        <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+            <div className="absolute w-[600px] h-[600px] rounded-full bg-rose-950/20 blur-3xl top-[-10%] left-[-10%] animate-drift-slow" />
+            <div className="absolute w-[500px] h-[500px] rounded-full bg-amber-400/15 blur-3xl bottom-[-10%] right-[-5%] animate-drift-slow-reverse" />
+        </div>
+    )
+}
+
+export default Background;
